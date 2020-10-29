@@ -2,20 +2,20 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Main program body
+  * @brief          : Main program body - EXAMPLE APLICATION of TIMER OC variable frequency.
   ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
+ *  This software is overwhelmed by the GNU General License, for any questions check the license file.
+ *  Copyright (C) 2020  Vitor Barreto <vitorbarreto@ufmg.br> and Wagner Menezes Polycarpo <wagnosferato@gmail.com>
+ *
   ******************************************************************************
-  */
+ * This code was developed by with hardware: MFS4NUCLEO_64_STMF103 and  Softwares: STM32CubeMX and SW4STM32.
+ * The TIM channels and their respectively pins in BOARD: TIM2_CH1 = PA0 |  TIM2_CH2 = PA1 | TIM2_CH3 = PB10 | TIM2_CH4 = PB2
+  ******************************************************************************
+ * **Brief of how the application works**
+ * Each CHANNEL of the TIM1 will have a unique output signal, with diferent frequencies. This code is a example of the implementation 
+ * of a timer in the OUTPUT COMPARE MODE with diferent periods. 
+ *
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
